@@ -1,8 +1,64 @@
 /* your styles will go here!! */
 
+body {
+
+}
+nav a {
+    color: #7DA001;
+    text-decoration: none;
+    font-family: Limelight;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: ;
+    padding: auto;
+
+
+}
+
+
+
 img {
     max-width: 100%;
 
 }
+h1{
+    color: #7DA001;
+    font-family: Limelight;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+        line-height: normal;
+        width: 324px;
+        height: 302px;
+        flex-shrink: 0;
+    }
 
+h2 {
+    color: #7DA001;
+    font-family: Inria Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
