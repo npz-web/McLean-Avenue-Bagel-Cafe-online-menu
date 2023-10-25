@@ -3,6 +3,17 @@
 body {
 
 }
+
+main {
+    max-width: 1200px;
+    width:99%;
+    margin: 0 auto ;
+}
+
+
+/* navigation */ 
+
+
 nav a {
     color: #7DA001;
     text-decoration: none;
@@ -11,45 +22,47 @@ nav a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: ;
-    padding: auto;
-
+    margin: 40px;;
+    padding: 10px 30px;
 
 }
 
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+    color: #7DA001;
+}
+
+/* Home page*/
+
+.row {
+    display: flex;
+}
+
+.row div {
+    padding: 50px;
+}
 
 
 img {
     max-width: 100%;
-
 }
-h1{
+h2 {
     color: #7DA001;
     font-family: Limelight;
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
-        line-height: normal;
-        width: 324px;
-        height: 302px;
-        flex-shrink: 0;
-    }
+    line-height: normal;
+    max-width: 324px;
+}
 
-h2 {
+
+h3 {
     color: #7DA001;
     font-family: Inria Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-}
-
-h3 {
-    color: #000;
-    font-family: Inria Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -62,3 +75,23 @@ h4 {
     line-height: normal;
 }
 
+h5 {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* home page */
+
+.home {
+    padding: 70px;
+}
+
+.bagelpic {
+    max-width: 878px;
+    width:100%;
+    margin-right: 50px;
+}
