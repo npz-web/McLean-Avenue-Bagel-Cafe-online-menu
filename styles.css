@@ -36,10 +36,11 @@ nav a:hover, nav a:focus {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .row div {
-    padding: 50px;
+    padding-top: 50px;
 }
 
 
@@ -53,7 +54,8 @@ h2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    max-width: 324px;
+  
+    margin: 0;
 }
 
 
@@ -87,11 +89,31 @@ h5 {
 /* home page */
 
 .home {
-    padding: 70px;
+    /* padding: 70px; */
 }
 
 .bagelpic {
-    max-width: 878px;
+    max-width: 590px;
     width:100%;
-    margin-right: 50px;
+    align-self: flex-start;
+   
+}
+.title-subhead{
+    font-size: 20px;
+    display: block;
+    color: #7DA001;
+    font-family: Limelight;
+}
+.right-panel{
+
+
+}
+.row .right-panel{
+    padding: 0px;
+}
+.hero-section{
+    flex-direction: row-reverse;
+    gap: 50px;
+    justify-content: center;
+    
 }
