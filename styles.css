@@ -158,3 +158,11 @@ h5 {
 .food-text-section{
     max-width: 800px;
 }
+
+.food-text-section article p{
+    margin: 5px;
+}
+
+.food-text-section article {
+    margin: 10px;
+}
