@@ -150,6 +150,24 @@ h5 {
     max-height: 100px;
 }
 
+
+/* beverages*/
+
+.bev-price {
+    gap: 7px;
+    margin-left: -23px;
+    margin-right: -23px;
+}
+
+.bev-price .grid-item {
+    text-align: center;
+}
+
+.bev .food-text-section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 /* this is where you style the text for the menu grid items */
 .grid-item p{
     margin:0;
@@ -166,3 +184,4 @@ h5 {
 .food-text-section article {
     margin: 10px;
 }
+
