@@ -187,6 +187,16 @@ h5 {
     margin: 10px;
 }
 
+footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100vw;
+    background:#7DA001;
+    padding: 20px;
+    
+}
+
 @media (min-width:750px) {
     .home .grid-container {
         flex-wrap: nowrap;
