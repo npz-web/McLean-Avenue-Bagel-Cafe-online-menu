@@ -35,6 +35,10 @@ nav a:hover, nav a:focus {
 
 /* Home page*/
 
+.black {
+    color: black;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -49,6 +53,7 @@ nav a:hover, nav a:focus {
 iframe {
     width: 90%;
     max-width: 600px;
+    height: 600px;
 }
 h2 {
     color: #7DA001;
@@ -107,10 +112,7 @@ h5 {
     color: #7DA001;
     font-family: Limelight;
 }
-.right-panel{
 
-
-}
 .row .right-panel{
     padding: 0px;
 }
@@ -185,3 +187,14 @@ h5 {
     margin: 10px;
 }
 
+@media (min-width:750px) {
+    .home .grid-container {
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    iframe {
+        width
+    }
+}
