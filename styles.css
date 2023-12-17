@@ -193,7 +193,9 @@ footer {
     bottom: 0;
     width: 100vw;
     background:#7DA001;
-    padding: 20px;
+    padding: 30px;
+    justify-content:center;
+
     
 }
 
@@ -205,6 +207,6 @@ footer {
     }
 
     iframe {
-        width
+        width: 100%; 
     }
 }
