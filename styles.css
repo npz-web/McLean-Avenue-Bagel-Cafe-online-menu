@@ -11,6 +11,10 @@ main {
     padding: 120px 20px;
 }
 
+footer a {
+    color: #ffffff;
+}
+
 
 /* navigation */ 
 
@@ -74,6 +78,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 }
 
 h4 {
@@ -211,4 +216,8 @@ footer {
         justify-content:center;
 
     }
+}
+
+p{
+    text-align: center;
 }
